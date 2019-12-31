@@ -4,6 +4,10 @@ While working on an ebook version of a comic, I noticed the panels displayed cor
 Tested using Safari Webkit on Mac.
 
 ### goal: update css or html so the xhtml version of file matches the html one.
-
+####table.html (renders correctly):
 ![html renders correctly](/readme/html.png)
+####table.xhtml (renders incorrectly):
 ![xhtml renders incorectly](/readme/xhtml.png)
+
+Is height not supported by XHTML?  Next test is to rebuild this using div, but appears to be the same.
+
